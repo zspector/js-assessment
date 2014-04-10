@@ -34,6 +34,7 @@ define(function() {
 
     },
 
+    //This is optional
     curryIt : function(fn) {
 
     }

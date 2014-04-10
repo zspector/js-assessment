@@ -118,7 +118,7 @@ define([
       expect(answers.partialUsingArguments(partialMe, a, b, c)()).to.eql(partialMe(a, b, c));
     });
 
-    it('you should be able to curry existing functions', function () {
+    it('you should be able to curry existing functions (this is optional)', function () {
       var curryMe = function (x, y, z) {
         return x / y * z;
       };
